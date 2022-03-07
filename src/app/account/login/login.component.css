@@ -1,0 +1,197 @@
+/* sign-in modal */
+.is_pointer_event {
+    pointer-events: none;
+}
+.login-ui .login-ui {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+    overflow: auto;
+}
+.modal-content {
+height: auto;
+width: 65%;  
+}
+ .login-ui .login-ui-body {
+    padding: 15px!important;
+    background: 0 0!important;
+    top: 10%;
+    position: absolute;
+        margin: unset!important;
+}
+.modal-header {
+    display: flex!important;
+    padding: 0.4rem 1rem;
+    border: none;
+}
+.modal-header .close {
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+button.close {
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+}
+button.close {
+    outline: 0;
+}
+.close {
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    opacity: .5;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 1;
+    color: #000;
+}
+.close span {
+    font-size: 35px!important;
+    font-weight: 400;
+}
+.sign_in .modal-body {
+    padding: 0 2rem!important;
+}
+.imgcontainer {
+    text-align: center;
+}
+h5 {
+    font-size: 1.25rem;
+}
+ .h5 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #000;
+
+}
+/* ************************* login modal ********************** */
+.login-modal {
+    margin: 0px;
+}
+input {
+    overflow: visible;
+}
+.login-modal .login-form .btn.btn-facebook {
+    margin-top: 5px;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+
+.login-modal .login-form .btn {
+    margin: 0 0 17px;
+    width: 100%;
+    position: relative;
+}
+
+.login-modal .btn.btn-facebook {
+    background-color: #415a99;
+    border-color: #415a99;
+    color: #fff;
+    background-size: 20px;
+    font-weight: 500;
+    background: url('../../../assets/site-imgs/facebook.png') 25px center/20px no-repeat #415a99;
+}
+
+.login-modal .btn.btn-google {
+    color: #1a2b49;
+    background-color: #fff;
+    background-size: 20px;
+    font-weight: 500;
+}
+.login-modal .btn.btn-google {
+    background: url('../../../assets/site-imgs/google.png') 25px center/20px no-repeat #fff;
+}
+.login-modal .login-form .or {
+    font-size: 1rem;
+    line-height: 2rem;
+    color: #6d7688;
+    margin-bottom: 18px;
+    margin-top: 12px;
+    text-align: center;
+}
+.login-form .or:before {
+    right: 0.5em;
+    margin-left: 1%;
+}
+
+.login-form .or:before, .or:after {
+    background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 45%;
+}
+.or:after {
+    background-color: #ddd;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 45%;
+}
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+  
+}
+.form-control {
+    box-shadow: none;
+    border-color: #ccc;
+}
+.form-group {
+    margin-bottom: 1rem;
+}
+/* **********************SVG icon**************** */
+#showPassword1 {
+    display: block;
+    position: absolute;
+    top: 43px;
+    right: 5px;
+    height: 20px;
+}
+
+svg {
+    overflow: hidden;
+    vertical-align: middle;
+}
+#showPassword1 #eye-icon {
+    fill: #999;
+}
+.text-right {
+    text-align: right!important;
+}
+a {
+
+    text-decoration: none;
+}
+.btn-modal {
+    color: #fff!important;
+    background-image: linear-gradient(164deg,#55d5d8 0,#7390e0 100%);
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.btn-modal {
+margin: 0 0 17px;
+width: 100%;
+position: relative;
+}
+.rounded-pill {
+    border-radius: 50rem!important;
+}
+
+
+.signup-ui .login-ui .login-ui-body {
+    max-width: 90%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}

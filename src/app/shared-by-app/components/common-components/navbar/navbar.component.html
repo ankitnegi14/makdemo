@@ -1,0 +1,130 @@
+<div class="site-mobile-menu">
+    <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close">
+            <span (click)="showHideNavbar('hide')" class="icon-close2 js-menu-toggle">&times;</span>
+        </div>
+    </div>
+    <div class="site-mobile-menu-body">
+        <ul class="site-nav-wrap">
+            <li><a (click)="redirect('/housemaid-services-bahrain')" class="on-hover">Services</a></li>
+            <li><a (click)="redirect('/blogs')" class="link" id="/blog" class="on-hover">Blogs</a></li>
+            <li>
+                <button type="button" class="btn navbar-btn w-75 nv_pd btn-blue on-hover rounded-pill ">
+                    Sign Up
+                </button>
+                <button type="button" class="btn btn_bd navbar-btn w-75 nv_pd text-dark on-hover rounded-pill">
+                    Sign In
+                </button>
+            </li>
+
+            <!-- <li class="dropdown app_none dro_sty" *ngIf="navbarSvc.loginVar">
+                <a class="dropdown-toggle" data-toggle="dropdown" style="background: none; outline: none;">
+                    {{userName}}
+                </a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item on-hover" id="/booking-history-list"
+                        (click)="redirect('/booking-history-list')" style="color: black;" class="on-hover"><i
+                            class="fa fa-user fa-lg mr-2 gr_housemaid"></i>My Bookings</a>
+
+                    <div class="dropdown-divider"></div>
+
+                    <a class="dropdown-item on-hover" id="/my-favourites" (click)="redirect('/my-favourites')"
+                        style="color: black;"><i class="fa fa-heart fa-lg mr-2 gr_housemaid"></i>My Favorites</a>
+
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item on-hover" id="/settings-menu" (click)="redirect('/settings-menu')"
+                        style="color: black;"><i class="fa fa-cog fa-lg mr-2 gr_housemaid"></i>Settings</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item on-hover" style="color: black;" data-toggle="modal"
+                        data-target="#logoutModal" (click)="onOpenModal()"><i
+                            class="fa fa-sign-out fa-lg mr-2 gr_housemaid"></i> Logout</a>
+                </div>
+            </li> -->
+            <li>&nbsp;</li>
+        </ul>
+    </div>
+</div>
+
+<div class="site-navbar-wrap">
+    <div class="site-navbar">
+        <div class="container py-2">
+            <div class="row align-items-center p-2">
+                <div class="col-3">
+                    <h1 class="site-logo">
+                        <a (click)="redirect('/')"><img class=""
+                                src="../../../../../assets/landing-imgs/mak_todaylogo.svg" alt="logo" width="160" /></a>
+                    </h1>
+                </div>
+                <div class="col-9">
+                    <nav class="site-navigation text-right" role="navigation">
+                        <div class="container">
+                            <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3">
+                                <a class="site-menu-toggle text-white">
+                                    <span *ngIf="!showNavbar" (click)="showHideNavbar('show')"
+                                        class="js-menu-toggle icon-menu text-dark">
+                                        <svg height="15pt" viewBox="0 -53 384 384" width="15pt"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path
+                                                d="m368 154.667969h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                                            <path
+                                                d="m368 32h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                                            <path
+                                                d="m368 277.332031h-352c-8.832031 0-16-7.167969-16-16s7.167969-16 16-16h352c8.832031 0 16 7.167969 16 16s-7.167969 16-16 16zm0 0" />
+                                        </svg>
+                                    </span>
+                                </a>
+                            </div>
+
+                            <ul class="site-menu js-clone-nav d-none d-lg-block">
+                                <li><a (click)="redirect('/services')" class="link on-hover" id="/services">Services</a>
+                                </li>
+                                <li><a (click)="redirect('/blogs')" class="link on-hover" id="/blog">Blogs</a>
+                                </li>
+                                <li (click)="openSignUpModal('custom-modal-13')">
+                                    <button type="button" class="btn navbar-btn btn-blue rounded-pill  on-hover">Sign
+                                        Up</button>
+                                </li>
+
+                                <!-- ********************** User Menu *********************** -->
+
+                                <!-- <li class="dropdown app_none dro_sty" *ngIf="navbarSvc.loginVar">
+                                    <a class="dropdown-toggle" data-toggle="dropdown"
+                                        style="background: none; outline: none;">
+                                        {{userName}}
+
+                                    </a>
+                                    <div class="dropdown-menu">
+                                        <a class="dropdown-item on-hover" id="/booking-history-list"
+                                            (click)="redirect('/booking-history-list')" style="color: black;"><i
+                                                class="fa fa-user fa-lg mr-2 gr_housemaid"></i>My Bookings</a>
+
+                                        <div class="dropdown-divider"></div>
+
+                                        <a class="dropdown-item on-hover" id="/my-favourites"
+                                            (click)="redirect('/my-favourites')" style="color: black;"><i
+                                                class="fa fa-heart fa-lg mr-2 gr_housemaid"></i>My Favorites</a>
+
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item on-hover" id="/settings-menu"
+                                            (click)="redirect('/settings-menu')" style="color: black;"><i
+                                                class="fa fa-cog fa-lg mr-2 gr_housemaid"></i>Settings</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item on-hover" style="color: black;" data-toggle="modal"
+                                            data-target="#logoutModal" (click)="onOpenModal()"><i
+                                                class="fa fa-sign-out fa-lg mr-2 gr_housemaid"></i> Logout</a>
+                                    </div>
+                                </li> -->
+                                <li>
+                                    <button type="button" (click)="openModal('custom-modal-12')"
+                                        class="btn btn_bd navbar-btn text-dark on-hover rounded-pill">
+                                        Sign In
+                                    </button>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

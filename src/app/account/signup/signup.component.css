@@ -1,0 +1,544 @@
+
+
+.close span {
+    font-size: 35px !important;
+	font-weight: 400;
+}
+
+
+  /*sign up Model start*/ 
+signup-ui .login-ui .login-ui-body {
+
+    padding: 15px !important;
+    background: none !important;
+    margin: 40px; 
+
+}
+.sign_in .modal-body {
+    padding: 0px 2rem !important;
+}
+
+.iti__country-list{
+	max-width:308px !important;
+	z-index:99;
+}
+
+
+
+
+
+
+
+
+  /*log in Model start*/
+.login-modal .modal-error,
+.login-modal .modal-error {
+ background:#fff4f1;
+ font-size:1.4rem;
+ line-height:60px;
+ padding:0 15px;
+ font-weight:500;
+ border-radius:4px;
+ margin:10px 0
+}
+@media(min-width: 560px) {
+ .login-modal .modal-dialog,
+ .login-modal .modal-dialog {
+  width:360px
+ }
+}
+.login-modal .modal-header,
+.login-modal .modal-header {
+ border:none;
+ padding:10px 10px 0 0
+}
+.login-modal .modal-body,
+.login-modal .modal-body {
+ background:#fff;
+ padding:0 15px 15px 15px;
+ min-height:300px
+}
+.login-modal .modal-footer,
+.login-modal .modal-footer {
+ border:0;
+ padding: 0 20px 15px 20px;
+}
+.login-modal .spinner,
+.login-modal .spinner {
+ position:absolute
+}
+.login-modal .spinner-container,
+.login-modal .spinner-container {
+ border-radius:4px;
+ width:98%
+}
+.login-modal .spinner-message,
+.login-modal .spinner-message {
+ border:none
+}
+.login-modal .sign-up-general,
+.login-modal .login-general,
+.login-modal .sign-up-general,
+.login-modal .login-general {
+ margin:0;
+ padding:0 20px
+}
+.login-modal .sign-up-general .login-title,
+.login-modal .login-general .login-title,
+.login-modal .sign-up-general .login-title,
+.login-modal .login-general .login-title {
+ font-size:2rem;
+ font-weight:500;
+ margin:0 0 10px 0
+}
+.login-modal .sign-up-general .login-content,
+.login-modal .login-general .login-content,
+.login-modal .sign-up-general .login-content,
+.login-modal .login-general .login-content {
+ text-align:center;
+ width:100%
+}
+.login-modal .sign-up-general .login-intro-text,
+.login-modal .login-general .login-intro-text,
+.login-modal .sign-up-general .login-intro-text,
+.login-modal .login-general .login-intro-text {
+ font-size:1.5rem;
+ width:auto
+}
+.login-modal .sign-up-general .membership-question,
+.login-modal .login-general .membership-question,
+.login-modal .sign-up-general .membership-question,
+.login-modal .login-general .membership-question {
+ padding:15px 0 0 0;
+ border-top:1px solid #c6c8d0
+}
+.login-modal .login-form,
+.login-modal .login-form {
+ margin:0
+}
+.login-modal .login-form .form-field,
+.login-modal .login-form .form-field {
+ position:relative;
+ margin:10px 0
+}
+
+.login-modal .login-form .strongPass span,
+.login-modal .login-form .strongPass span {
+ color:#00aa71
+}
+.login-modal .login-form .btn,
+.login-modal .login-form .btn {
+ margin:0 0 17px;
+ width:100%;
+ position:relative
+}
+
+.login-modal .login-form .btn.btn-facebook.fa-facebook:before,
+.login-modal .login-form .btn.btn-facebook.fa-facebook:before {
+ position:absolute;
+ left:12px;
+ top:15px
+}
+.login-modal .btn.btn-facebook {
+	color: #1a2b49;
+    background-color: rgb(255, 255, 255);
+    background-size: 20px;
+    border-color: #6d7688;
+    padding: .6rem 3rem;
+    font-weight: 500;
+}
+.login-modal .login-form .btn.btn-google.fa-google:before,
+.login-modal .login-form .btn.btn-google.fa-google:before {
+    display: none
+ /* position:absolute;
+ left:12px;
+ top:15px */
+}
+.login-modal .btn.btn-google {
+	/* padding: .8rem 3rem;
+	padding-left: 3rem;
+    width: auto;
+    border: 1px solid #7490c7; */
+
+    color: #1a2b49;
+    background-color: rgb(255, 255, 255);
+    background-size: 20px;
+    border-color: #6d7688;
+    padding: .6rem 3rem;
+    font-weight: 500;
+
+
+}
+
+.login-modal .login-form .or,
+.login-modal .login-form .or {
+	 font-size:1rem;
+	 line-height:2rem;
+	 color:#6d7688;
+	 margin-bottom:18px;
+	 margin-top:12px;
+	 text-align: center;
+}
+.login-modal .login-form .login-terms,
+.login-modal .login-form .login-terms {
+	 font-size:1.4rem;
+	 line-height:2rem;
+	 color:#6d7688;
+	 margin:0 9%;
+	 padding-bottom:10px;
+}
+
+.modal__signup-button {
+	 -webkit-appearance:none;
+	 appearance:none;
+	 background:transparent;
+	 border:0;
+	 border-radius:0;
+	 box-shadow:0;
+	 color:#333;
+	 padding:0;
+}
+
+.login-modal .btn.btn-facebook {
+    background-color: #415a99;
+	border-color:#415a99;
+	color:#fff;
+}
+.login-modal .login-form .btn, .login-modal .login-form .btn {
+		margin: 0 0 17px;
+        margin-top: 0px;
+		width: 100%;
+		position: relative;
+}
+.login-modal .login-form .btn.btn-facebook, .login-modal .login-form .btn.btn-facebook {
+    margin-top: 5px;
+
+}
+.our_color {
+    color: #47c288;
+}
+/*log in Model End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*forgot start End*/
+
+.forgot_password .modal-header{
+	padding: 0.1rem 1rem;
+	border: none;
+}
+.forgot_password .modal-footer{
+	padding: 0rem 1rem 1rem;
+	border: none;
+}
+.forgot_password .modal-body {
+	padding: 0 1rem;
+}
+.forgot_form label{
+	color:#333;
+	font-weight: 600;
+}
+.our_button3{
+	background-image: linear-gradient(164deg, #55d5d8 0%, #7390e0 100%);
+	color:#fff;
+}
+.our_color{
+	color:#7490c7;
+}
+button.close {
+    outline: 0;
+}
+/*forgot start End*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sign in start End*/
+
+
+.sign_in .modal-header{
+	display: -ms-flexbox !important;
+	display: flex !important;
+	padding: 0.4rem 1rem;
+	border: none;
+
+}
+.sign_in .modal-footer{
+	padding: 0rem 1rem 1rem;
+	border: none;
+}
+.sign_in  .modal-body {
+	    padding: 0 3rem;
+}
+.sign_in  .modal-footer {
+	    padding: 1rem 2rem;
+}
+.sign_inform  label{
+	color:#333;
+	font-weight: 600;
+}
+.btn_facebook{
+	background:#1E4FAD;
+	color:#fff;
+}
+.btn_google{
+	background:#fff !important;
+	color:#000;
+	border:1px solid #ddd;
+	
+}
+.or h2 {
+   width: 100%; 
+   text-align: center; 
+   border-bottom: 1px solid #ddd; 
+   line-height: 0.1em;
+   margin: 10px 0 20px; 
+   color:#333;
+} 
+
+.or h2 span { 
+    background:#fff; 
+    padding:0 10px; 
+}
+.input-group .icon-addon .form-control {
+    border-radius: 0;
+}
+
+.icon-addon {
+    position: relative;
+    color: #000;
+    display: block;
+}
+
+.icon-addon:after,
+.icon-addon:before {
+    display: table;
+    content: " ";
+}
+
+.icon-addon:after {
+    clear: both;
+}
+
+.icon-addon.addon-md .glyphicon,
+.icon-addon .glyphicon, 
+.icon-addon.addon-md .fa,
+.icon-addon .fa {
+    position: absolute;
+    z-index: 2;
+    right: 10px;
+    font-size: 14px;
+    width: 20px;
+    margin-left: -2.5px;
+    text-align: center;
+    padding: 10px 0;
+    top: 1px
+}
+
+.icon-addon.addon-lg .form-control {
+    line-height: 1.33;
+    height: 46px;
+    font-size: 18px;
+}
+
+.icon-addon.addon-sm .form-control {
+    height: 30px;
+    padding: 5px 10px 5px 28px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.icon-addon.addon-lg .fa,
+.icon-addon.addon-lg .glyphicon {
+    font-size: 18px;
+    margin-left: 0;
+    right: 11px;
+    top: 4px;
+	color:#ddd;
+}
+
+.icon-addon.addon-md .form-control,
+.icon-addon .form-control {
+    float: left;
+    font-weight: normal;
+}
+
+.icon-addon.addon-sm .fa,
+.icon-addon.addon-sm .fa {
+    margin-left: 0;
+    font-size: 12px;
+    right: 5px;
+    top: -1px
+}
+
+.icon-addon .form-control:focus + .glyphicon,
+.icon-addon:hover .glyphicon,
+.icon-addon .form-control:focus + .fa,
+.icon-addon:hover .fa {
+    color: #7490c7;
+}
+.form-check-input {
+    margin-top: 0.5rem;
+}
+.sgnup{
+	max-width: 450px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*sign in start End*/
+select{
+-webkit-appearance: none;
+-moz-appearance: none;
+ appearance: none;
+}
+  
+  
+  .cancelbtn {
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+  }
+  
+  .imgcontainer {
+    text-align: center;
+    /* margin: 24px 0 12px 0; */
+  }
+  
+  img.avatar {
+    width: 40%;
+    border-radius: 50%;
+  }
+  
+
+  
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+    .cancelbtn {
+       width: 100%;
+    }
+  }
+  signup-ui .login-ui .login-ui-body {
+    padding: 20px;
+    background: #fff;
+    top: 50%;
+    max-width: 45%;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* margin: unset!important; */
+  }
+  @media only screen and (max-width: 991px){
+    signup-ui .login-ui .login-ui-body {
+      max-width: 90%;
+      width: 100%;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+  ul#country-listbox {max-width: 308px;
+  }
+
+  .sign-up-popup{
+      display: none;
+  }
+
+  .is_pointer_event{
+    pointer-events: none;
+  }
+
+  #showPassword{
+    display: block;
+    position: absolute;
+    top: 7px;
+    right: 5px;
+    height: 20px;
+  }
+  #showPassword #eye-icon{
+    fill: #999;
+  }
+  #showPassword #eye-icon.selected{
+    fill: blue;
+  }
+  #showPassword:hover #eye-icon{
+    fill: blue;
+  }
+  
+  .input-container::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    display: block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+  }
+  
+  input::-webkit-credentials-auto-fill-button {
+    visibility: hidden;
+}
+
+input::-webkit-contacts-auto-fill-button {
+  visibility: hidden;
+  display: none !important;
+  pointer-events: none;
+  position: absolute;
+  right: 0;
+}

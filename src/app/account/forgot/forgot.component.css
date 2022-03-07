@@ -1,0 +1,98 @@
+.forgot-header{
+    background: #7490c7;
+    color: #fff;
+}
+/* for [ngClass] in forgot Modal  *********START*******/
+.sign-up-popup{
+    display: none;
+}
+.is_pointer_event{
+    pointer-events: none;
+}
+/* for [ngClass] in forgot Modal *******END*******/
+
+forgot-ui .forgot-ui .forgot-ui-body {
+    padding: 25px!important;
+    background: 0 0!important;
+    top: 10%;
+    margin: unset!important;
+    width: 65%;
+}
+.modal-header {
+    display: flex!important;
+    padding: 0.4rem 1rem;
+    border: none;
+}
+.modal-header .close{
+    padding: 1rem;
+    margin: -1rem -1rem -1rem auto;
+}
+
+button.close{
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    outline: none;
+}
+button.close:hover{
+    color: #ccc;
+
+}
+.close{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+ text-shadow: 0 1px 0 #fff;
+        opacity: 5;
+        color: #fff;
+        
+}
+.close span{
+    font-size: 35px!important;
+    font-weight: 400;
+}
+.modal-body {
+    padding: 0 2rem!important;
+}
+p{
+    font-size: 16px;
+    color: #6c757d!important;
+}
+.form-group{
+    margin-bottom: 1rem;
+}
+label{
+    display: inline-block;
+    margin-bottom: 0.5rem!important;
+}
+.form-control{
+    box-shadow: none;
+    border-color: #ccc;
+}
+.btn-blue{
+    background-image: linear-gradient(164deg,#55d5d8 0,#7390e0 100%);
+    color: #fff;
+}
+.btn-blue:hover{
+    color: #fff;
+}
+.btn-block{
+    width: 100%;
+}
+.text-center{
+    margin-top: 1rem!important;
+}
+a{
+    text-decoration: none;
+    color: #6c757d;
+}
+@media only screen and (max-width: 991px)
+{
+forgot-ui .forgot-ui .forgot-ui-body {
+    max-width: 90%;
+    width: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+}

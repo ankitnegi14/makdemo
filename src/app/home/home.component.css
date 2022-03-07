@@ -1,0 +1,211 @@
+/* ************************** banner css ****************************** */
+.masthead {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.h-100 {
+    height: 100%!important;
+}
+.site-blocks-cover {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+.site-blocks-cover h1 {
+    font-weight: 700;
+    
+    font-size: 2.1rem!important;
+    font-family: 'Manrope',sans-serif!important;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.mb-4, .my-4 {
+    margin-bottom: 1.5rem!important;
+}
+
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+}
+.site-blocks-cover .sub-text {
+ 
+    font-weight: 400;
+   
+    line-height: 1.5;
+    font-family: Manrope,sans-serif!important;
+}
+
+@media screen and (min-width: 1024px){
+.wid-75 {
+    width: 75%;
+}
+}
+@media screen and (min-width: 1024px){
+
+.masthead {
+    height: 580px;
+  background-image: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.4)),url('../../assets/landing-imgs/home_banner.jpg');
+}
+}
+.site-blocks-cover p {
+  
+    font-size: 16px;
+    line-height: 1.4;
+}
+.btn:not(:disabled):not(.disabled) {
+    cursor: pointer;
+}
+.btn-group-lg.btn, .btn.btn-lg {
+  
+    font-size: 16px;
+}
+.btn-lg {
+    padding: 10px 40px!important;
+}
+.btn-blue{
+    background-image: linear-gradient(164deg,#55d5d8 0,#7390e0 100%);
+}
+.text-white {
+    color: #fff!important;
+}
+@media screen and (min-width: 1024px){
+.wid-50 {
+    width: 50%;
+}
+}
+.dw-buttons {
+    list-style-type: none;
+    padding: 0;
+}
+.dw-buttons li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.my-1 {
+    margin-bottom: 0.25rem!important;
+    margin-top: 0.25rem!important;
+}
+.dw-buttons li img {
+    height: 40px;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+@media screen and (min-width: 992px){
+
+.site-block-1 {
+    padding-top: 0;
+    position: absolute;
+    width: 100%;
+   
+    transform: translateY(-100%);
+}
+}
+
+
+
+/* ********************** after banner  ************************** */
+body {
+    line-height: 1.7;
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    font-family: Manrope,sans-serif!important;
+}
+
+.site-block {
+    background-image: linear-gradient(164deg,#55d5d8 0,#7390e0 100%);
+    height: 120px;
+    margin-top: -121px
+}
+    .site-block-fit {
+        position: relative;
+        padding-left: 0!important;
+        transition: .3s all ease;
+        top: 0;
+    }
+.p-4{
+    padding: 1rem!important;
+}
+.d-flex{
+    display: flex!important
+    ;
+}
+.align-items-top{
+    margin-left: 80px;
+}
+ 
+.round{
+    border-radius: 0.25rem!important;
+}
+.font-weight-light{
+    font-weight: 300!important;
+}
+h2{
+    font-size: 2rem;
+}
+.img-fluid{
+ max-width:100%;
+ height: auto;
+}
+.text p {
+    font-size: 16px;
+    margin-left: 15px;
+  
+}
+.site-block-fit p{
+    color:#fff;
+
+}
+a{
+    text-decoration: none;
+}
+
+
+.border-rght::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    z-index: 100;
+    width: 1px;
+    height: 75px;
+    background: #fff;
+    top: 20px;
+}
+@media screen and  (min-width: 768px){
+
+    .site-section {
+        padding: 3em 0;
+    }
+    }
+    @media scrren and  (min-width: 768px){
+    
+    .container, .container-md, .container-sm {
+        max-width: 720px;
+    }
+    }
+    .text-center {
+        text-align: center!important;
+    }
+    @media screen and (min-width: 992px){
+
+        .site-block {
+            padding-top: 0;
+            position: absolute;
+            width: 100%;
+           
+           }
+              
+        }
+        @media screen and (max-width: 992px){
+        .border-rght::after{
+       display: none;
+       position:absolute;
+       text-align: center;
+}
+                   
+            }

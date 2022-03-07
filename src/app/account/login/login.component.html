@@ -1,0 +1,98 @@
+<div [ngClass]="{'is_pointer_event': isClickBackGround}">
+    <div class="login-ui d-flex justify-content-center">
+        <div class="login-ui-body">
+            <div class="modal-content sign_in">
+                <div class="modal-header">
+                    <button aria-label="Close" class="close" data-bs-dismiss="modal" aria-label="Close"
+                        (click)="close()"><span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form [formGroup]="loginForm" autocomplete="off">
+
+                        <div class="imgcontainer">
+                            <h5>Sign in your account</h5>
+                        </div>
+
+                        <div class="error-msg-form" *ngIf="errorlog"
+                            style="color: red; text-align: center; font-size: 15px; font-weight: bold;">
+                            {{errormsg}}
+                        </div>
+
+                        <div class="login-modal">
+                            <div class="login-form">
+                                <form class="facebook-form">
+                                    <input type="hidden" name="" value="">
+                                    <button class="btn btn-facebook rounded-pill btn-lg" type="button"
+                                        value="facebook-login">Sign in with Facebook</button>
+                                    <input name="" type="hidden" value="">
+                                    <button class="btn btn-google border rounded-pill btn-lg" type="button"
+                                        value="facebook-login">Sign in with Google
+                                    </button>
+                                </form>
+
+                                <div class="or">or</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="uname"><b>Email</b></label>
+                                <input class="form-control" formcontrolname="email" name="uname" placeholder="Email"
+                                    type="text">
+                                <div *ngIf="submitted && f.email.errors"
+                                    style="color: red; font-size: 15px; font-weight: bold;">
+                                    <div *ngIf="f.email.errors.required">Email is required</div>
+                                </div>
+                            </div>
+
+                            <div class="form-group input-container" style="position: relative;">
+                                <label for="psw"><b>Password</b></label>
+                                <svg xmlns:xlink="http://www.w3.org/1999/xlink" height="18px" id="showPassword1"
+                                    tabIndex="-1" version="1.1" viewBox="0 0 26 18" width="26px"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    (click)="togglePassword('exampleInputPassword1')">
+
+                                    <title>eye icon</title>
+                                    <desc>Created with Sketch.</desc>
+                                    <defs></defs>
+                                    <g fill="none" fill-rule="evenodd" id="Page-1" stroke="none" stroke-width="1">
+                                        <g fill-rule="nonzero" id="eye-icon">
+                                            <g id="noun_67883_cc" transform="translate(5.000000, 4.000000)">
+                                                <path
+                                                    d="M15.9265,5.32 C14.687,2.271 11.501,0.2225 8,0.2225 C4.4985,0.2225 1.313,2.271 0.0735,5.3195 L0,5.5 L0.0735,5.6805 C1.313,8.729 4.4985,10.777 8,10.777 C11.501,10.777 14.687,8.7285 15.9265,5.6805 L16,5.5 L15.9265,5.32 Z M1.038,5.5 C1.7955,3.786 3.2645,2.4505 5.0535,1.742 C3.939,2.6175 3.2215,3.976 3.2215,5.5 C3.2215,7.0235 3.9395,8.382 5.0535,9.2575 C3.264,8.5495 1.795,7.214 1.038,5.5 Z M8,9.32 C5.8935,9.32 4.18,7.6065 4.18,5.5 C4.18,3.3935 5.8935,1.68 8,1.68 C10.1065,1.68 11.8205,3.3935 11.8205,5.5 C11.8205,7.6065 10.1065,9.32 8,9.32 Z M10.947,9.2575 C12.0615,8.382 12.779,7.0235 12.779,5.5 C12.779,3.9765 12.0615,2.618 10.947,1.7425 C12.736,2.4505 14.205,3.786 14.963,5.5 C14.2045,7.214 12.736,8.5495 10.947,9.2575 Z M8,3.25 C6.7575,3.25 5.75,4.2575 5.75,5.5 C5.75,6.7425 6.7575,7.75 8,7.75 C9.2425,7.75 10.25,6.7425 10.25,5.5 C10.25,4.2575 9.2425,3.25 8,3.25 Z"
+                                                    id="Shape"></path>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </svg>
+
+                                <input autocomplete="off" class="form-control" formcontrolname="password"
+                                    id="exampleInputPassword1" name="psw" placeholder="Password" type="password"
+                                    [ngClass]="{ 'is-invalid': submitted && f.password.errors }">
+
+                                <div *ngIf="submitted && f.password.errors"
+                                    style="color: red; font-size: 15px; font-weight: bold;">
+                                    <div *ngIf="f.password.errors.required">Password is required</div>
+                                </div>
+                            </div>
+                            <div class="text-right"><span class="custom_register_span"><a class="u-color-blue"
+                                        data-toggle="modal" style="cursor: pointer; color: #7490c7 !important;"
+                                        (click)="openForgotModal('custom-modal-14')">Forgot
+                                        Password?</a></span>
+                            </div>
+                            <button class="btn btn-modal btn-block mt-4 btn-lg rounded-pill text-white"
+                                (click)="onSubmitLogin()" type="submit">SignIn
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer d-flex flex-column pt-0">
+                    <p class="font-weight-normal mt-4 mb-2 text-center " style="font-size: 14px;">Don't have an
+                        account? <a (click)="openSignUpModal('custom-modal-13')" class="our_color"
+                            style="cursor: pointer; color: #7490c7 !important;">Create
+                            an account</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="login-ui-background"></div>
+</div>
